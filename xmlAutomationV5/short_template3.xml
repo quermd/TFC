@@ -1,0 +1,15 @@
+<!-- Mover triple de ${ORIGEN}A a ${DESTINO}A y de ${ORIGEN}B a ${DESTINO}B-->
+<xml>
+  <!-- Ida de ${ORIGEN}A a ${DESTINO}A-->
+ <source>${ORIGEN}A</source>
+ <target>${DESTINO}A</target>
+ <!-- Vuelta de ${DESTINO}A a ${ORIGEN}A-->
+ <source>${DESTINO}A</source>
+ <target>${ORIGEN}A</target>
+ <!-- Ida de ${ORIGEN}B a ${DESTINO}B-->
+ <source>${ORIGEN}B</source>
+ <target>${DESTINO}B</target>
+ <!-- Vuelta de ${DESTINO}B a ${ORIGEN}B-->
+ <source>${DESTINO}B</source>
+ <target>${ORIGEN}B</target>
+</xml>

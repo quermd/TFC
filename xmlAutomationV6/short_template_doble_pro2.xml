@@ -1,0 +1,13 @@
+<!-- Mover doble de ${ORIGEN} a ${DESTINO}-->
+<!-- Con funcionalidad particular1-->
+<xml>
+ <!-- Funcionalidad particular1-->
+ <funcionalidad particular1="${ORIGEN}${DESTINO}">
+ <!-- Ida de ${ORIGEN} a ${DESTINO}-->
+ <source>${ORIGEN}</source>
+ <target>${DESTINO}</target>
+ <!-- Vuelta de ${DESTINO} a ${ORIGEN}-->
+ <source>${DESTINO}</source>
+ <target>${ORIGEN}</target>
+</xml>
+<|endoftext|>

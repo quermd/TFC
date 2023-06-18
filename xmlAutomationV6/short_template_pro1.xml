@@ -1,0 +1,9 @@
+<!-- Mover simple de ${ORIGEN} a ${DESTINO}-->
+<!-- Con log-->
+<xml>
+  <source>${ORIGEN}</source>
+  <target>${DESTINO}</target>
+  <!-- log-->
+  <log message="[${ORIGEN}-${DESTINO}-connect] Sent file to ${DESTINO}"/>
+</xml>
+<|endoftext|>

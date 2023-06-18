@@ -1,0 +1,9 @@
+<!-- Mover simple de ${ORIGEN} a ${DESTINO}-->
+<!-- Con funcionalidad particular1-->
+<xml>
+  <!-- Funcionalidad particular1-->
+  <funcionalidad particular1="${ORIGEN}${DESTINO}">
+  <source>${ORIGEN}</source>
+  <target>${DESTINO}</target>
+</xml>
+<|endoftext|>

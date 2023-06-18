@@ -1,0 +1,5 @@
+<!-- Mover simple de ${ORIGEN} a ${DESTINO}-->
+<xml>
+ <source>${ORIGEN}</source>
+ <target>${DESTINO}</target>
+</xml>

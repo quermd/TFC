@@ -1,0 +1,9 @@
+<!-- Mover doble de ${ORIGEN} a ${DESTINO}-->
+<xml>
+  <!-- Ida de ${ORIGEN} a ${DESTINO}-->
+ <source>${ORIGEN}</source>
+ <target>${DESTINO}</target>
+ <!-- Vuelta de ${DESTINO} a ${ORIGEN}-->
+ <source>${DESTINO}</source>
+ <target>${ORIGEN}</target>
+</xml>

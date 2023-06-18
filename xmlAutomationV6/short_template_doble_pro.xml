@@ -1,0 +1,16 @@
+<!-- Mover doble de ${ORIGEN} a ${DESTINO}-->
+<!-- Con funcionalidad particular1-->
+<!-- Con log-->
+<xml>
+ <!-- Funcionalidad particular1-->
+ <funcionalidad particular1="${ORIGEN}${DESTINO}">
+ <!-- Ida de ${ORIGEN} a ${DESTINO}-->
+ <source>${ORIGEN}</source>
+ <target>${DESTINO}</target>
+ <!-- Vuelta de ${DESTINO} a ${ORIGEN}-->
+ <source>${DESTINO}</source>
+ <target>${ORIGEN}</target>
+  <!-- log-->
+  <log message="[${ORIGEN}-${DESTINO}-connect] Sent file to ${DESTINO} and obtained file "/>
+</xml>
+<|endoftext|>
