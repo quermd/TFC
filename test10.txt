@@ -1,0 +1,7 @@
+  <!-- mover_archivos_simple_application_COMPOST_VULCAN -->
+  <!-- nombre corto de aplicación: COMPOST-VULCAN-connect -->
+  <!-- paquete de aplicación: net.company.COMPOST.VULCAN.connect -->
+  <!-- Esta aplicación mover archivos simple application COMPOST VULCAN sirve para mover archivos de COMPOST a VULCAN y obtener una respuesta de VULCAN a COMPOST -->
+      
+  <cm:property-placeholder id="configurationProperties"
+      persistent-id="net.company.COMPOST.VULCAN.connect" update-strategy="reload"/>
